@@ -1,0 +1,44 @@
+body {
+    background-color: #1a1a1a;
+}
+h1 {
+    color: #fff;
+    font-size: 4.25vw;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width:100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    /*margin: 20px;*/
+    text-align: center;
+}
+a:link, a:visited {
+    color: #e1a87a;
+}
+
+section {
+    width: 600px;
+}
+
+#spaceHolder {
+    height: 20px;
+}
+
+.blog_text {
+    color: #fff;
+    
+    margin-bottom: 40px;
+}
