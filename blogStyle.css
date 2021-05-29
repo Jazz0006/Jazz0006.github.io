@@ -1,8 +1,10 @@
 body {
     background-color: #1a1a1a;
+    color:azure;
+    
+    
 }
 h1 {
-    color: #fff;
     font-size: 4.25vw;
     text-align: center;
 }
@@ -10,7 +12,8 @@ h1 {
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
-    width:100%;
+    width:98%;
+
 }
 
 ul {
@@ -29,16 +32,67 @@ a:link, a:visited {
     color: #e1a87a;
 }
 
-section {
-    width: 600px;
+
+
+#container_blog_title {
+    background-image: url("./media/home-bg.jpg");  
+    background-size: cover;
+    opacity: 0.5;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: initial;
+    width: 100%;
+    margin-bottom: 3rem;
+    color:black;
+}
+
+.blog-card {
+    margin: auto;
+    max-width: 720px;
+    border: 1px solid #fff;
+    margin-bottom: 1.5rem;
+}
+
+article img {
+    display:block;
+    margin:auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+article h3 {
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.blog-date {
+    font-size: 0.875em;
+    color:darkgrey;
+    margin: 0px;
 }
 
 #spaceHolder {
     height: 20px;
 }
 
-.blog_text {
-    color: #fff;
-    
-    margin-bottom: 40px;
+.blog_text {    
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+/* Style for blog articles*/
+.blog-text {
+    margin: auto;
+    padding: 1rem;
+    max-width: 720px;
+    border: 1px solid #fff;
+    font-size:large;
 }

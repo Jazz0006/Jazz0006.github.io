@@ -10,7 +10,7 @@ h1 {
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
-    width:100%;
+    width:98%;
 }
 
 nav ul {
@@ -21,11 +21,11 @@ nav ul {
     margin: 0px;
 }
 
-li {
+nav li {
     /*margin: 20px;*/
     text-align: center;
 }
-a:link, a:visited {
+nav a:link, nav a:visited {
     color: #e1a87a;
 }
 
@@ -43,21 +43,41 @@ section {
     /*margin-bottom: 40px;*/
 }
 
+@media screen and (min-width:600px) {
 #about_content {
     display:flex;
     color:azure;
-}
 
+}
 #about_description {
     margin-left: 2em;
     width:60%;
 }
+}
+@media screen and (max-width: 599px) {
+    #about_content {
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        color:azure;
+    }
+    #about_description {
+        margin-top: 2em;
+        margin-left: 2em;
+        width:90%;
+    }
+    
+    
+}
+#link-ca {
+    color:azure;
+}
 
-#about_description li {
-    font-size: 1em;
-    text-align: left;
+#about_description h3 {
+    margin-top: 1em;
 }
 .main-box{
+    margin: auto;
     width: 300px;
     height: 400px;
     box-shadow: 2px 4px 2px 4px rgba(70, 224, 151, 0.65);
@@ -99,20 +119,33 @@ section {
 }
 .info{
     padding: 0 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     color:azure;
 }
 
-.follow_btn{
+#icon-container {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height:40px;
+    margin: auto;
+}
+
+.contact-icon:link, .contact-icon:visited {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#follow_btn{
     text-decoration: none;
     background:azure;
-    /*color: #fff;*/
+    color:#e1a87a;
     padding: 10px 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 1px 1px rgba(70, 224, 151, 0.65);
 }
 
-.follow_btn:hover{
+#follow_btn:hover{
     color: #46E097;
     background: #DAF9F6;
     font-weight: 600;
