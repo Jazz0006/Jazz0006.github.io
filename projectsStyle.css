@@ -1,6 +1,7 @@
 body {
     background-color: #1a1a1a;
-    padding: 4px;
+    margin:0;
+    padding: 0px;
 }
 h1 {
     color: #fff;
@@ -29,17 +30,20 @@ li {
 a:link, a:visited {
     color: #e1a87a;
 }
+
 .div_img {
-    width: 100%;
+    width: 98%;
     text-align: center;
+    border-style: solid;
+    border-color: #e1a87a;
+    margin: 1rem;
+    padding: 0px;
 }
 #spaceHolder {
     height: 20px;
 }
-#list_of_projects {
-    width: 100%;
-}
-img {
+
+.div_img img {
     width: 100%;
 }
 .link_button:link, .link_button:visited {
@@ -58,13 +62,6 @@ img {
 
 }
 
-.div_img {
-    border-style: solid;
-    border-color: #e1a87a;
-    margin: 10px;
-    padding: 5px;
-}
-
 .project_text {
     color: #eee;
     text-align: center;
@@ -73,8 +70,16 @@ img {
 
 @media screen and (max-width: 599px) {
     #list_of_projects {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        width:97%;
     }
+    .div_img {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 1rem;
+
 }
 
 .div_project_text {

@@ -24,23 +24,71 @@
 
     <div id="spaceHolder"></div>
 
+    <h1>CONTACT</h1>
     <section id="contact">
-        <h1>CONTACT</h1>
-        <p class="contact_text">
-            <i class="icofont-github"></i>
-            <a href="https:jazz0006.github.com" target="_blank">jazz0006.github.com</a>
-        </p>
-        <p class="contact_text">
-            <i class="icofont-linkedin"></i>
-            <a href="https://www.linkedin.com/in/jazz-zeng/" target="_blank">www.linkedin.com/in/jazz-zeng/</span>
-        </p>
-        <p class="contact_text">
-            <i class="icofont-address-book"></i>
-            <span>2216 Rockdale, NSW</span>
-        </p>
-        <p class="contact_text">
-            <i class="icofont-mobile-phone"></i>
-            <span>Mobile: 0423 XXX XXX</span></p>
+
+        <div id="contact-info">
+            <div id="div-icons">
+                <a class="contact-icon" href="https:jazz0006.github.com" target="_blank">
+                    <i class="icofont-github"></i>
+                </a>
+                <a class="contact-icon" href="https://www.linkedin.com/in/jazz-zeng/" target="_blank">
+                    <i class="icofont-linkedin"></i>
+                </a>
+                <a class="contact-icon" href="https://www.twitter.com" target="_blank">
+                    <i class="icofont-twitter"></i>
+                </a>
+                <a class="contact-icon" href="https://www.facebook.com" target="_blank">
+                    <i class="icofont-facebook"></i>
+                </a>
+            </div>
+
+            <div class="contact-detail">
+                <i class="icofont-google-map"></i>
+                <div class="div-con-info">
+                    <h4>Location:</h4>
+                    <p>
+                        <span>2216 Rockdale, NSW</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <i class="icofont-phone-circle"></i>
+                <div class="div-con-info">
+                    <h4>Mobile:</h4>
+                    <p>+61 423 XXX XXX</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <i class="icofont-email"></i>
+                <div class="div-con-info">
+                    <h4>Email:</h4>
+                    <p>jazz.zeng@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <form>
+            <div class="long-field">
+                
+                    <input id="input-name" type="text" placeholder="Your Name">
+                
+                    <input id="input-email" type="text" placeholder="Your Email">
+                
+            </div>
+            <div class="long-field">
+                <input id="input-title" type="text" placeholder="Subject">
+
+            </div>
+            <div class="long-field">
+                <textarea id="input-text" name="message" rows="6" placeholder="Message" required></textarea>
+
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+
+
     </section>
 
 

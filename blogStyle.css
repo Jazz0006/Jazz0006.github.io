@@ -1,7 +1,7 @@
 body {
     background-color: #1a1a1a;
     color:azure;
-    
+    margin: 0;
     
 }
 h1 {
@@ -12,7 +12,7 @@ h1 {
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
-    width:98%;
+    width:100%;
 
 }
 
@@ -44,6 +44,7 @@ a:link, a:visited {
     background-repeat: no-repeat;
     background-origin: initial;
     width: 100%;
+    
     margin-bottom: 3rem;
     color:black;
 }
@@ -52,6 +53,8 @@ a:link, a:visited {
     margin: auto;
     max-width: 720px;
     border: 1px solid #fff;
+    margin-left: 8px;
+    margin-right: 8px;
     margin-bottom: 1.5rem;
 }
 

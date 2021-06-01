@@ -1,5 +1,7 @@
 body {
     background-color: #1a1a1a;
+    margin: 0;
+    padding: 5px;
 }
 h1 {
     color: #fff;
@@ -10,7 +12,7 @@ h1 {
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
-    width:100%;
+    width:98%;
 }
 
 ul {
@@ -27,6 +29,7 @@ li {
 }
 a:link, a:visited {
     color: #e1a87a;
+    text-decoration: none;
 }
 
 section {
@@ -39,5 +42,135 @@ section {
 
 .contact_text {
     color: #fff;
-    text-align: center;
+    
 }
+
+#div-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-icon {
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.contact-detail {
+    display: flex;
+    
+    margin-top: 2rem;
+}
+
+.contact-detail i {
+    color: azure;
+    /*float: left;*/
+    font-size: 44px;
+}
+
+.div-con-info {
+    margin-left: 8px;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-detail h4 {
+    margin: 0;
+    font-size: 20px;
+    color:#fff;
+}
+
+.contact-detail p {
+    font-size:14px;
+    margin: 0;
+    color: cornsilk;
+}
+
+form {
+    padding-top: 5px;
+    margin: 5px;
+    border:rgb(255, 255, 255) solid;
+        border-radius: 5px;;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.long-field {
+    
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#input-name {
+    height: 44px;
+    width: 50%;
+    margin: 10px 5px 10px 0px;
+    border-radius:  4px;
+}
+
+#input-email {
+    height: 44px;
+    width: 50%;
+    margin: 10px 0px 10px 5px;
+    border-radius:  4px;
+}
+
+#input-title {
+    width: 100%;
+    height: 44px;
+    border-radius:  4px;
+    margin: 10px 0px 10px 0px;
+}
+
+#input-text {
+    width: 100%;
+    
+    border-radius:  4px;
+    margin: 15px 0px 10px 0px;
+}
+
+#contact-info {
+    margin: 5px;
+    padding: 30px 15px 30px 15px;
+    border:rgb(255, 255, 255) solid;
+    border-radius: 5px;;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color:cornsilk;
+    padding: 10px 35px;
+    border-radius: 50px;
+}
+
+button:not(:disabled)  {
+    cursor: pointer;
+}
+
+@media screen and (min-width:600px) {
+    #contact {
+        display: flex;
+    }
+    #contact-info {
+        width: 30%;
+        }
+
+    form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:599px) {
+    #contact-info {
+        margin-bottom: 20px;
+        
+    }
