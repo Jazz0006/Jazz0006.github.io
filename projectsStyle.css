@@ -1,7 +1,7 @@
 body {
     background-color: #1a1a1a;
     margin:0;
-    padding: 0px;
+    padding: 5px;
 }
 h1 {
     color: #fff;
@@ -36,16 +36,16 @@ a:link, a:visited {
     text-align: center;
     border-style: solid;
     border-color: #e1a87a;
-    margin: 1rem;
+    
     padding: 0px;
+}
+.div_img img {
+    width: 100%;
 }
 #spaceHolder {
     height: 20px;
 }
 
-.div_img img {
-    width: 100%;
-}
 .link_button:link, .link_button:visited {
     background-color: #e1a87a;
     color: white;
@@ -57,7 +57,13 @@ a:link, a:visited {
 }
 @media screen and (min-width: 600px) {
     #list_of_projects {
-    display: flex;
+        display: flex;
+    }
+
+    .div_img {
+        
+        margin: 1rem;
+        
     }
 
 }
@@ -72,16 +78,15 @@ a:link, a:visited {
     #list_of_projects {
         display: flex;
         flex-direction: column;
-        margin:auto;
-        width:97%;
+        align-content: center;
+        /*margin:auto;*/
+        width:100%;
     }
     .div_img {
-        margin-left: 8px;
-        margin-right: 8px;
+        
         margin-bottom: 1rem;
-
+    }
 }
-
 .div_project_text {
     height: 4em;
 }
