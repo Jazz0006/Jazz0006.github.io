@@ -1,21 +1,22 @@
 body {
     background-color: #1a1a1a;
-    margin:0;
-    padding: 5px;
+    color:azure;
+    padding: 0;
+    margin: 0;
 }
 h1 {
-    color: #fff;
     font-size: 4.25vw;
     text-align: center;
 }
 
+/*Navigation Bar*/
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
     width:100%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -23,70 +24,69 @@ ul {
     margin: 0px;
 }
 
-li {
-    /*margin: 20px;*/
+nav li {
     text-align: center;
 }
-a:link, a:visited {
+nav a:link, nav a:visited {
     color: #e1a87a;
 }
 
+/*Space for the fixed navigation bar*/
+#spaceHolder {
+    height: 20px;
+}
+
+/*Style for project cards*/
 .div_img {
     width: 98%;
     text-align: center;
     border-style: solid;
     border-color: #e1a87a;
-    
     padding: 0px;
 }
 .div_img img {
     width: 100%;
 }
-#spaceHolder {
-    height: 20px;
+
+.div_img p, .div_img h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
+/*button for more details*/
 .link_button:link, .link_button:visited {
     background-color: #e1a87a;
     color: white;
+    border-radius: 5px;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin-bottom: 20px;
 }
+
+/*media query for wide chreen*/
 @media screen and (min-width: 600px) {
     #list_of_projects {
         display: flex;
     }
-
     .div_img {
-        
-        margin: 1rem;
-        
+        margin: 1rem;  
     }
-
 }
 
-.project_text {
-    color: #eee;
-    text-align: center;
-    margin-bottom: 40px;
-}
-
+/*media query for mobile chreen*/
 @media screen and (max-width: 599px) {
     #list_of_projects {
         display: flex;
         flex-direction: column;
         align-content: center;
-        /*margin:auto;*/
         width:100%;
     }
     .div_img {
-        
+        margin-left: 5px;
+        margin-right: 5px;
         margin-bottom: 1rem;
     }
-}
-.div_project_text {
-    height: 4em;
 }

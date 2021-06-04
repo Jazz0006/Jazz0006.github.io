@@ -1,16 +1,20 @@
 body {
     background-color: #1a1a1a;
+    color:azure;
+    padding: 0;
+    margin: 0;
 }
 h1 {
-    color: #fff;
+    
     font-size: 4.25vw;
     text-align: center;
 }
 
+/*Navigation Bar*/
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
-    width:98%;
+    width:100%;
 }
 
 nav ul {
@@ -22,7 +26,6 @@ nav ul {
 }
 
 nav li {
-    /*margin: 20px;*/
     text-align: center;
 }
 nav a:link, nav a:visited {
@@ -33,49 +36,50 @@ section {
     width: 100%;
 }
 
+/*Space for the fixed navigation bar*/
 #spaceHolder {
     height: 20px;
 }
 
-.about_text {
-    color:azure;
-    
-    /*margin-bottom: 40px;*/
-}
-
-@media screen and (min-width:600px) {
+/*style for Introduction div on the right*/
 #about_content {
     display:flex;
-    color:azure;
-
-}
-#about_description {
-    margin-left: 2em;
-    width:60%;
-}
-}
-@media screen and (max-width: 599px) {
-    #about_content {
-        display:flex;
-        flex-direction: column;
-        align-content: center;
-        color:azure;
-    }
-    #about_description {
-        margin-top: 2em;
-        margin-left: 2em;
-        width:90%;
-    }
-    
-    
-}
-#link-ca {
-    color:azure;
 }
 
 #about_description h3 {
     margin-top: 1em;
 }
+
+/*color for code-academy href*/
+#about_description img {
+    
+    margin-left: 25px;
+}
+
+/*media query for wide chreen*/
+@media screen and (min-width:600px) {
+    #about_description {
+        margin-left: 2em;
+        width:60%;
+    }
+}
+
+/*media query for mobile devices*/
+@media screen and (max-width: 599px) {
+    #about_content {
+        flex-direction: column;
+        align-content: center;
+    }
+    #about_description {
+        margin-top: 2em;
+        margin-left: 2em;
+        width:90%;
+    }    
+}
+
+
+
+/*Style for name card on the left*/
 .main-box{
     margin: auto;
     width: 300px;
@@ -102,7 +106,7 @@ section {
     position: absolute;
     top: -5px;
     left: -5px;
-    background-image: url("./media/me_face.jpg");
+    background-image: url("./media/face2019_processed.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -136,7 +140,7 @@ section {
     text-decoration: none;
 }
 
-#follow_btn{
+#resume_btn{
     text-decoration: none;
     background:azure;
     color:#e1a87a;
@@ -144,8 +148,8 @@ section {
     border-radius: 20px;
     box-shadow: 2px 2px 1px 1px rgba(70, 224, 151, 0.65);
 }
-
-#follow_btn:hover{
+/*hover effect for the resume-button*/
+#resume_btn:hover{
     color: #46E097;
     background: #DAF9F6;
     font-weight: 600;

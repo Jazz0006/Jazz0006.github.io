@@ -1,21 +1,23 @@
 body {
     background-color: #1a1a1a;
+    color:azure;
+    padding: 0;
     margin: 0;
-    padding: 5px;
 }
 h1 {
-    color: #fff;
+    
     font-size: 4.25vw;
     text-align: center;
 }
 
+/*Navigation Bar*/
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
-    width:98%;
+    width:100%;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -23,8 +25,7 @@ ul {
     margin: 0px;
 }
 
-li {
-    margin-left: 20px;
+nav li {
     text-align: center;
 }
 a:link, a:visited {
@@ -32,25 +33,18 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-section {
-    width: 100%;
-}
-
 #spaceHolder {
     height: 20px;
 }
 
-.contact_text {
-    color: #fff;
-    
-}
-
+/*icon container*/
 #div-icons {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
+/*icons with circle as background*/
 .contact-icon {
     font-size: 20px;
     width: 44px;
@@ -62,15 +56,14 @@ section {
     border-radius: 50%;
 }
 
+/*Styles for Location, Mobile, ad Email*/
 .contact-detail {
     display: flex;
-    
     margin-top: 2rem;
 }
 
 .contact-detail i {
     color: azure;
-    /*float: left;*/
     font-size: 44px;
 }
 
@@ -92,18 +85,18 @@ section {
     color: cornsilk;
 }
 
+/*Styles for the message form*/
 form {
     padding-top: 5px;
     margin: 5px;
     border:rgb(255, 255, 255) solid;
-        border-radius: 5px;;
+    border-radius: 5px;;
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 
 .long-field {
-    
     width: 95%;
     display: flex;
     justify-content: space-around;
@@ -132,7 +125,6 @@ form {
 
 #input-text {
     width: 100%;
-    
     border-radius:  4px;
     margin: 15px 0px 10px 0px;
 }
@@ -152,10 +144,12 @@ button {
     border-radius: 50px;
 }
 
+/*button pointer*/
 button:not(:disabled)  {
     cursor: pointer;
 }
 
+/*media query for wide screen*/
 @media screen and (min-width:600px) {
     #contact {
         display: flex;
@@ -169,6 +163,7 @@ button:not(:disabled)  {
     }
 }
 
+/*media query for mobile screen*/
 @media screen and (max-width:599px) {
     #contact-info {
         margin-bottom: 20px;

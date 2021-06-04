@@ -1,22 +1,23 @@
 body {
     background-color: #1a1a1a;
     color:azure;
+    padding: 0;
     margin: 0;
-    
 }
 h1 {
+    
     font-size: 4.25vw;
     text-align: center;
 }
 
+/*Navigation Bar*/
 nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
     width:100%;
-
 }
 
-ul {
+nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -24,14 +25,16 @@ ul {
     margin: 0px;
 }
 
-li {
-    /*margin: 20px;*/
+nav li {
     text-align: center;
 }
-a:link, a:visited {
+nav a:link, nav a:visited {
     color: #e1a87a;
 }
 
+#spaceHolder {
+    height: 20px;
+}
 
 
 #container_blog_title {
@@ -49,6 +52,7 @@ a:link, a:visited {
     color:black;
 }
 
+/*blog article card*/
 .blog-card {
     margin: auto;
     max-width: 720px;
@@ -80,15 +84,6 @@ article h3 {
     font-size: 0.875em;
     color:darkgrey;
     margin: 0px;
-}
-
-#spaceHolder {
-    height: 20px;
-}
-
-.blog_text {    
-    margin-top: 0px;
-    margin-bottom: 1rem;
 }
 
 /* Style for blog articles*/
