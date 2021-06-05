@@ -60,6 +60,7 @@ section {
 @media screen and (min-width:600px) {
     #about_description {
         margin-left: 2em;
+        margin-right: 2em;
         width:60%;
     }
 }
