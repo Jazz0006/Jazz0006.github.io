@@ -38,7 +38,7 @@ nav a:link, nav a:visited {
 
 /*Style for project cards*/
 .div_img {
-    /*width: 98%;*/
+    width: 96%;
     text-align: center;
     border-style: solid;
     border-color: #e1a87a;
@@ -48,7 +48,14 @@ nav a:link, nav a:visited {
     width: 100%;
 }
 
-.div_img p, .div_img h3 {
+.div_img p {
+    height: 2em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.div_img h3 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 40px;
@@ -85,8 +92,8 @@ nav a:link, nav a:visited {
         width:100%;
     }
     .div_img {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 1rem;
     }
 }
