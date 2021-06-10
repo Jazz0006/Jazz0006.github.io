@@ -97,14 +97,14 @@ section {
     border: 10px solid #46E097;
     border-radius: 50%;
     margin: auto;
-    position: relative;
+    
 }
 .small-circle{
     width: 140px;
     height: 140px;
     border: 10px solid #DAF9F6;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
     top: -5px;
     left: -5px;
     background-image: url("./media/face2019_processed.jpg");
