@@ -1,10 +1,10 @@
 # Documentation of the Portfolio Assignment
 
 ## URL:
-https://jazz0006.github.io/
+[https://jazz0006.github.io/](https://jazz0006.github.io/)
 
 ## Repo:
-https://github.com/Jazz0006/Jazz0006.github.io
+[https://github.com/Jazz0006/Jazz0006.github.io](https://github.com/Jazz0006/Jazz0006.github.io)
 
 ## About this website
 
@@ -27,6 +27,7 @@ The target audience are potential employers looking to engage a dev and/or IT pr
 * Favicon
 * Button with hover effect
 * Form for sending message
+* Icon font
 * Blog
 
 ## Tech Stack:
@@ -38,7 +39,7 @@ The target audience are potential employers looking to engage a dev and/or IT pr
 ![Sitemap](./docs/Sitemap.png)
 
 ## Screenshots:
-On wide screen devices:
+On desktop computer:
 
 ![Index on Chrome](./docs/Index.png)
 

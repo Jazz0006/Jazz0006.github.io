@@ -92,3 +92,14 @@ article h3 {
     border: 1px solid #fff;
     font-size:large;
 }
+
+.div_back_link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 720px;
+    text-align: center;
+}
+
+.div_back_link  a{
+    color:azure;
+}
