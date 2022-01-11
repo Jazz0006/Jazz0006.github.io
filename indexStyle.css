@@ -10,28 +10,6 @@ h1 {
     text-align: center;
 }
 
-/*Navigation Bar*/
-nav {
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    width:100%;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
-    margin: 0px;
-}
-
-nav li {
-    text-align: center;
-}
-nav a:link, nav a:visited {
-    color: #e1a87a;
-}
-
 section {
     width: 100%;
 }
